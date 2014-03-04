@@ -43,6 +43,7 @@ The same template you can render in JavaScript:
       config.action_view_key    = 'handlebars' # change name of key for rendering in ActionView mustache template
       config.template_namespace = 'SHT'      # change templates namespace in javascript
       config.template_base_path = Rails.root.join("app", "templates") # templates dir
+      config.helper_path        = config.template_base_path + 'helpers.js' # helpers
     end
 
 ### Note on precompiling assets and custom configs
@@ -67,3 +68,9 @@ Source code: [https://github.com/le0pard/st_rails_example](https://github.com/le
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Contributors
+[zanedev](https://github.com/zanedev)
+[dsrw](https://github.com/dsrw)
+[noiseunion](https://github.com/noiseunion)
+[kagd](https://github.com/kagd)
